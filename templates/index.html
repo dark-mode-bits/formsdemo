@@ -1,0 +1,10 @@
+<form action="{% url 'register_page' %}">
+
+<button type="submit">Register</button>
+</form>
+<form action="#">
+    <button type="submit">Login</button>
+</form>
+{% for x in messages %}
+    <h3>{{ x }}</h3>
+{% endfor %}
